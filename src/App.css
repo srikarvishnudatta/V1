@@ -391,6 +391,8 @@ li::marker {
 }
 
 .menu li{
+  font-family: var(--font-sans);
+  color: var(--lightest-slate);
   font-size: 1.3rem;
 }
 .menu li:hover{
@@ -400,10 +402,12 @@ li::marker {
   font-family: var(--font-mono);
 }
 .menu button{
-  background-color: var(--navy);
+  background-color: var(--light-navy);
   border: var(--green) solid 1px;
   color: var(--green);
   margin-left: -20px;
+  padding: 1em;
+  border-radius: 10px;
 }
 .menu-bar > button{
   position: absolute;
@@ -412,6 +416,7 @@ li::marker {
   left: 1;
   bottom: 0;
   margin: 1em;
+  
 }
 .menu-button a{
   color: var(--green);
@@ -423,6 +428,11 @@ li::marker {
   left: 1;
   bottom: 0;
   margin: 1em;
+}
+.socialbar-vertical ul{
+  display: flex;
+  gap: 1em;
+  justify-content: center;
 }
 
 @media (max-width: 860px) {

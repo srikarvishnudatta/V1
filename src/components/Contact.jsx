@@ -1,4 +1,6 @@
-export default function Contact(){
+import SocialBar from "./SocialBar";
+
+export default function Contact({width}){
     return <div className="contact" id="section3">
         <h4>04. What's next</h4>
         <p>I am looking for Full-time opportunities at the moment as 
@@ -8,5 +10,7 @@ export default function Contact(){
         <button>
             <a href="mailto:srikarvishnudatta@gmail.com">Say Hello</a>
         </button>
+
+        {width<=750 && <SocialBar width={width}/>}
     </div>
 }

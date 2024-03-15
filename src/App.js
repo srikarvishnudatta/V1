@@ -20,7 +20,7 @@ function App() {
       <Header currentWidth = {width}/>
       <SocialBar />
       <EmailBar />
-      <Main />
+      <Main width={width}/>
     </>
   );
 }
