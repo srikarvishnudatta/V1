@@ -42,7 +42,7 @@ export default function Nav({currentWidth}) {
           <li key={index} onClick={()=>handleNavigation(`section${index}`)}>{item}</li>
         ))}
         <button>
-        <a href="https://drive.google.com/file/d/1ifbnrJ10Qj1U71ptX5c6cfk13WnbsaHe/view?usp=sharing">Resume</a>
+        <a href="https://drive.google.com/file/d/18XY4JLki6YeAughDclwDV0-LpBHDp0g9/view?usp=drive_link">Resume</a>
       </button>
       </ol>
     </div>

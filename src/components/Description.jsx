@@ -13,12 +13,12 @@ export default function Description() {
         <div className="my-description">
             <p>
             Hello! My name is Srikar. I enjoy making web, mobile apps and keep all my projects minimalistic. Currently working on building a
-            Splitwise clone and a Notion-like template website to track your activities. I have been making mobile apps since grade 9, and always have been passionate about coding.
+            Splitwise clone and a recipe sharing social media application where friends can share/upload their recipes among themselves. I have been making mobile apps since grade 9, and always have been passionate about coding.
             </p>
             <p>
                 I have a Bachelors degree in Computer Science and Engineering from Vellore 
-                Institute of Technology, India. And, I am pursuing Master's of Applied Computer Science 
-                @ <span>Concordia University</span> and will be graduating in Spring 2024.
+                Institute of Technology, India. And, I am a recent Master's of Applied Computer Science 
+                @ <span>Concordia University</span> graduate.
             </p>
             <p>Here are the few technologies I worked with recently: </p>
             <div className="list-styler">

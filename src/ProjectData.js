@@ -2,7 +2,7 @@ const PROJECT_DATA = [
     {
         title: "JobSeekr",
         paragraph:"Built a job application website with different dashboards for applicants, admin and recruiters.",
-        techStack:["React", "Node","Firebase"],
+        techStack:["React", "Springboot","PostgresSQL"],
         link:"https://github.com/srikarvishnudatta/AgileMinds-Soen6011summer2023"
     },
     {
